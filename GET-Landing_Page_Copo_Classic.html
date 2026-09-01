@@ -829,6 +829,12 @@
         margin-bottom: 20px;
     }
 
+    .manual-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
     .download-card {
         background: #ffffff;
         border-radius: 12px;
@@ -1241,6 +1247,10 @@
 
         .manual-title {
             font-size: 30px;
+        }
+
+        .manual-grid {
+            grid-template-columns: 1fr;
         }
 
         .download-card {
@@ -1922,49 +1932,53 @@
                 </h2>
 
 
-                <div class="download-card">
+                <div class="manual-grid">
 
-                    <!-- Ícone -->
-                    <svg
-                        class="card-icon"
-                        width="45"
-                        height="45"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path d="M8 6h9v2H8z"></path>
+                    <div class="download-card">
 
-                        <path d="M20 2H6C4.35 2 3 3.35 3 5v14c0 1.65 1.35 3 3 3h15v-2H6c-.55 0-1-.45-1-1s.45-1 1-1h14c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1m-6 14H6c-.35 0-.69.07-1 .18V5c0-.55.45-1 1-1h13v12z"></path>
-                    </svg>
+                        <!-- Ícone -->
+                        <svg
+                            class="card-icon"
+                            width="45"
+                            height="45"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M8 6h9v2H8z"></path>
 
-
-                    <h3 class="card-title">
-                        Manual do Usuário
-                    </h3>
-
-                    <p class="card-info">
-                        Mesa Office GET
-                    </p>
-
-                    <p class="card-info">
-                        Português (Brasil)
-                    </p>
+                            <path d="M20 2H6C4.35 2 3 3.35 3 5v14c0 1.65 1.35 3 3 3h15v-2H6c-.55 0-1-.45-1-1s.45-1 1-1h14c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1m-6 14H6c-.35 0-.69.07-1 .18V5c0-.55.45-1 1-1h13v12z"></path>
+                        </svg>
 
 
-                    <!-- Download -->
-                    <a
-                        href="https://ibytef01.sharepoint.com/:b:/s/produtos-ibyte/IQCvvslaoRWxToBhoeilsYdeAWMB8Tn0AhAxnOaW4PiAXlg?e=esYBaB"
-                        class="download-btn"
-                    >
+                        <h3 class="card-title">
+                            Manual do Usuário
+                        </h3>
 
-                        <div class="bg"></div>
+                        <p class="card-info">
+                            Mesa Office GET
+                        </p>
 
-                        <span>
-                            Baixar
-                        </span>
+                        <p class="card-info">
+                            Português (Brasil)
+                        </p>
 
-                    </a>
+
+                        <!-- Download -->
+                        <a
+                            href="https://ibytef01.sharepoint.com/:b:/s/produtos-ibyte/IQCvvslaoRWxToBhoeilsYdeAWMB8Tn0AhAxnOaW4PiAXlg?e=esYBaB"
+                            class="download-btn"
+                        >
+
+                            <div class="bg"></div>
+
+                            <span>
+                                Baixar
+                            </span>
+
+                        </a>
+
+                    </div>
 
                 </div>
 
